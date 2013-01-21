@@ -3,7 +3,7 @@
   <channel>
     <title>Blog Title</title>
     <link>http://sample.com</link>
-    <pubDate>2013-01-21 05:24:21 +0000</pubDate>
+    <pubDate>2013-01-21 05:48:31 +0000</pubDate>
     <item>
       <title>Cs479r Week Two</title>
       <link>http://sample.com/cs479r-week-two</link>
@@ -13,6 +13,12 @@
     <item>
       <title>cs479R Week One</title>
       <link>http://sample.com/cs479r-week-one</link>
+      <pubDate>2013-01-21</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>Post 1 1</title>
+      <link>http://sample.com/post-1-1</link>
       <pubDate>2013-01-21</pubDate>
       <description></description>
     </item>
