@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Pages</title>
+    <title>cs479R Week One</title>
     <meta name="author" content="Firstname Lastname">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -11,9 +11,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7287594878189108" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/stylesheets/style.css?0.04764640088021699" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.5680538288782507" type="text/css" rel="stylesheet" media="all">
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8618336454143494" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.5070166965193298" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7501174392710293" type="text/css" rel="stylesheet" media="all">
 
     
 
@@ -42,8 +42,8 @@
               
                 <li><a href="/categories">Categories</a></li>
               
-                <li class="active"><a href="/pages" class="active">Pages</a></li>
               
+                <li><a href="/pages">Pages</a></li>
               
               
                 <li><a href="/about">About Me</a></li>
@@ -57,31 +57,50 @@
 
       <div class="content">
         <div class="page-header">
-  <h1>Pages </h1>
+  <h1>cs479R Week One </h1>
 </div>
 
 <div class="row">
-  <div class="span12">
-    <ul>
+  <div class="span8">
+    
+    <hr>
+    <div class="pagination">
+      <ul>
+          <li class="prev disabled"><a>&larr; Previous</a></li>
+
+          <li><a href="archive">Archive</a></li>
+
+          <li class="next"><a href="/cs479r-week-two" title="Cs479r Week Two">Next &rarr;</a></li>
+      </ul>
+    </div>
+    <hr>
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </div>
   
-    <li><a href="/about">About Me</a></li>
-  
-  
-    <li><a href="/archive">Archive</a></li>
-  
-  
-    <li><a href="/categories">Categories</a></li>
-  
-  
-    <li><a href="/">Home</a></li>
-  
-    <li class="active"><a href="/pages" class="active">Pages</a></li>
-  
-  
-  
-    <li><a href="/tags">Tags</a></li>
-  
-</ul>
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>2013-01-21</span></div>
+    <br>
+    <h4>Categories</h4>
+    <ul class="tag_box">
+    </ul>
+    <br>
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    </ul>
   </div>
 </div>
 
